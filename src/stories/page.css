@@ -1,3 +1,28 @@
+:root {
+  --palette-text-primary: black;
+  --palette-background-default: #fafafa;
+  --palette-primary-main: #1976d2;
+  --palette-primary-contrastText: white;
+  --palette-secondary-main: #9c27b0;
+  --palette-secondary-contrastText: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --palette-text-primary: white;
+    --palette-background-default: #1a1a1a;
+    --palette-primary-main: #90caf9;
+    --palette-primary-contrastText: black;
+    --palette-secondary-main: #ce93d8;
+    --palette-secondary-contrastText: black;
+    }
+}
+
+body {
+  background-color: var(--palette-background-default);
+  color: var(--palette-text-primary);
+}
+
 section {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -5,7 +30,6 @@ section {
   padding: 48px 20px;
   margin: 0 auto;
   max-width: 600px;
-  color: #333;
 }
 
 section h2 {

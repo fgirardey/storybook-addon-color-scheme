@@ -1,4 +1,1 @@
-export interface Result {
-  divs: DOMRect[];
-  styled: DOMRect[];
-}
+export type Config = "light" | "dark" | undefined;
