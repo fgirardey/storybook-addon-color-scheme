@@ -1,9 +1,15 @@
 {
   "name": "storybook-addon-color-scheme",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Render your stories in a given color scheme",
   "keywords": [
-    "storybook", "addon", "color", "scheme", "dark", "light", "storybook-addons"
+    "storybook",
+    "addon",
+    "color",
+    "scheme",
+    "dark",
+    "light",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
@@ -99,7 +105,15 @@
   "storybook": {
     "displayName": "Color Scheme",
     "supportedFrameworks": [
-      "react", "vue", "angular", "web-components", "ember", "html", "svelte", "preact", "react-native"
+      "react",
+      "vue",
+      "angular",
+      "web-components",
+      "ember",
+      "html",
+      "svelte",
+      "preact",
+      "react-native"
     ],
     "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
   }
